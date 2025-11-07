@@ -1,4 +1,4 @@
-# Exploratory Data Analytics and Predictive Modelling
+# Death Analysis - Exploratory Data Analytics and Predictive Modelling
 ### CITS4009 Project: Computational Data Analysis | The University of Western Australia
 
 **Objective**
