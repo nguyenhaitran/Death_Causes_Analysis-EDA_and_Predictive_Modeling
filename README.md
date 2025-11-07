@@ -47,7 +47,7 @@ The analysis was conducted using **R** and focuses on:
 
 ---
 
-## 📈 Results & Insights  
+## Results & Insights  
 - Achieved strong classification performance (accuracy above 85%) using full features with the **Decision Tree** classification model.  
 - PCA revealed meaningful country groupings by socio-economic and health similarity.  
 - Interactive Shiny app enabled intuitive exploration of model outcomes and clusters.
