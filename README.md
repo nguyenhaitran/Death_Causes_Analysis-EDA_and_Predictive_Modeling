@@ -1,18 +1,63 @@
-# CITS4009 Project — Exploratory Data Analytics and Predictive Modelling
+# Exploratory Data Analytics and Predictive Modelling
+### CITS4009 Project: Computational Data Analysis | The University of Western Australia
 
-### Result: 75/100
+**Objective**
+This project explores global health data to uncover insights into causes of death across countries and to develop predictive models that classify and cluster countries by cause.  
 
-## Outline of the project
-The project focuses on performing exploratory data analysis (EDA) and predictive modeling on a specific dataset. For this project, the given dataset is the Countries and Death causes dataset. The analysis aims to uncover patterns in the data and develop predictive models for classification and clustering tasks.
+---
 
-## Submission files included:
-- Knitted R markdown (HTML).
-- R scripted for Shiny app.
+## Project Overview
+The analysis was conducted using **R** and focuses on:
+- **Exploratory Data Analysis (EDA):** Understanding trends and relationships in the “Countries and Death Causes” dataset.  
+- **Predictive Modelling:** Applying machine learning models to classify health outcomes and country groups.  
+- **Interactive Visualization:** Creating a **Shiny App** for dynamic exploration of the results.
 
-## Exploratory Data Analysis and Modelling implementation
-- Data Preparation:
-  + Cleaned and transformed the data, including data types conversions, removing duplicated values, handling missing values, labelling data, and merging datasets where necessary.
-  + Developed interactive visualisation using Shiny App for the data for better data understanding and exploration. 
-- Buid models, including classification and clustering.
-  + Classification: Implemented Decision Tree and Logistic Regression models. With each model type, there are two variations, one with full features and one model with selected features. Evaluated model performance using ROC plots and results of precision, recall, f1, accuracy.
-  + Clustering: Built a clustering model and visualised the results using a dendrogram. Applied Principle components - dimension reduction to visualise the clusters on 2D graph. Selected the optimal number of clusters (k) by using the Within Sum of Square (WSS) plot. 
+---
+
+## Tools & Techniques  
+| Category | Tools / Methods |
+|-----------|----------------|
+| Language | R, R Markdown, Shiny |
+| Data Preparation | Data cleaning, transformation, missing value handling, feature selection |
+| Visualisation | ggplot2, Shiny interactive dashboards |
+| Modelling | Decision Tree, Logistic Regression, K-Means Clustering, Principal Component Analysis (PCA) |
+| Evaluation | ROC Curves, Precision, Recall, F1 Score, Accuracy, WSS |
+
+---
+
+## Methodology Summary
+
+### 1. Data Preparation  
+- Cleaned and transformed the dataset by removing duplicates, handling missing values, and labelling categorical data.  
+- Merged multiple data sources and ensured consistent formats.  
+
+### 2. Exploratory Data Analysis  
+- Visualised relationships between causes of death within different countries.  
+- Identified high-correlation attributes influencing the number of deaths.  
+
+### 3. Predictive Modelling  
+- **Classification Models:**  
+  Implemented **Decision Tree** and **Logistic Regression** models to predict mortality categories.  
+  - Compared performance between full-feature and selected-feature models.  
+  - Evaluated models using ROC curves, precision, recall, F1, and accuracy.  
+
+- **Clustering Models:**  
+  Built **K-Means clustering** models and visualised clusters on 2D PCA-reduced space.  
+  - Determined optimal cluster number using the Elbow Method.  
+
+---
+
+## 📈 Results & Insights  
+- Achieved strong classification performance (accuracy above 85%) using full features with the **Decision Tree** classification model.  
+- PCA revealed meaningful country groupings by socio-economic and health similarity.  
+- Interactive Shiny app enabled intuitive exploration of model outcomes and clusters.
+
+## Shiny App Demo Video
+Watch my Shiny App Demo video on YouTube: https://youtu.be/k8GJQmlML18 
+
+## Result
+- Final Mark 75/100
+
+## Room for improvement
+- **Feature Standardisation:** Normalising numerical features could improve the performance of models like Logistic Regression, by ensuring all independent variables are on the same scale.
+- **Model Tuning:** Applying grid-search or cross-validation for hyperparameter optimisation could improve the models' performance further.
