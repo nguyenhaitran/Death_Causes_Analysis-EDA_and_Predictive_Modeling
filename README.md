@@ -1,7 +1,7 @@
 # Death Analysis - Exploratory Data Analytics and Predictive Modelling
 ### CITS4009 Project: Computational Data Analysis | The University of Western Australia
 
-**Objective**
+**Objective:**
 This project explores global health data to uncover insights into causes of death across countries and to develop predictive models that classify and cluster countries by cause.  
 
 ---
